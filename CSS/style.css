@@ -1,0 +1,627 @@
+/* common css start */
+:root{
+    --blue:#2500f9;
+    --pink:#fc6782;
+    --green:#40975f;
+    --black:#242f51;
+}
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    line-height: 0.8;
+}
+.no-padding{
+    padding: 0 !important;
+}
+/* common css ends */
+/* header css start */
+#header{
+    padding-bottom: 67px;
+    position: relative;
+    z-index: 1;
+}
+.bottom-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.layer-img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.layer-img-2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.navbar{
+    padding: 0;
+    margin-top: 95px;
+    background-color: transparent;
+}
+nav ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: var(--black);
+    margin-left: 35px;
+}
+.btn-1{
+    background-color: var(--blue);
+    /* display: inline-block; */
+    padding: 20px 40px;
+    border-radius: 35px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.btn-2{
+    display: inline-block;
+}
+.banner-text span{
+    background-color: grey;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 25px;
+    color: #ffffff;
+    margin: 0;
+}
+.banner{
+    padding-top: 75px;
+}
+.banner-text{
+    padding-top: 169px;
+}
+.banner-text h1{
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 43px;
+}
+.banner-text p{
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 43px;
+}
+.show li{
+    margin-left: 15px;
+}
+.show .btn-1 {
+    display: inline-block;
+	position: relative;
+	right: 6%;
+	top: 77%;
+}
+/* header css ends */
+/* happy-clint css start */
+#happy-clint{
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+.pd{
+    padding-top: 43px;
+}
+/* happy-clint css ends */
+/* features css start */
+#features{
+    width: 100%;
+    padding: 70px;
+}
+.features-text h2{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.features-text p{
+    font-size: 18px;
+
+}
+.fast{
+    margin-top: 70px;
+}
+.fast h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.fast-text{
+    margin-left: 45px;
+}
+.fast-img{
+    background-color: #f4f4ff;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.features-img{
+    position: relative;
+    z-index: 1;
+}
+.features-img-1{
+    position: absolute;
+    left: -8%;
+    top: 30%;
+    z-index: -1;
+}
+.roatet {
+        transform: rotate(147deg);
+}
+/* features css end */
+/* jackpot css start */
+#jackpot{
+    width: 100%;
+    padding: 65px 0;
+}
+.col-md-5 h2{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.border-1{
+    width: 1px;
+    height: 150px;
+    background-color: #b3b4b6;
+    margin-top: 36px;
+    margin-left: 43px;
+}
+.jeckpot-p p{
+    font-size: 18px;
+    padding: 45px 0;
+}
+/* jackpot css ends */
+/* features-2 css start */
+#features-2{
+    width: 100%;
+    padding: 70px 0;
+}
+.payout-img,.effect-img,.rewards-img{
+    width: 100px;
+    height: 100px;
+    background-color: #ffecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.effect-img{
+    background-color: #f4f4ff;
+}
+.rewards-img{
+    background-color: #e4ffee;
+}
+.payout-text h2,.effect-text h2,.rewards-text h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #f55767;
+    font-weight: bold;
+    padding-top: 38px;
+}
+.effect-text h2{
+    color: #2563ff;
+}
+.rewards-text h2{
+    color: #40975f;
+}
+.effect-text p, .payout-text p, .rewards-text p{
+    color: #616368;
+    padding-top: 16px;
+    line-height: 1;
+}
+
+/* features-2 css ends */
+/* code-integation css start */
+#code-integation{
+    width: 100%;
+    padding: 70px 0;
+}
+.code-integation-img{
+    position: relative;
+}
+.code-integation-img .img-1 {
+	position: absolute;
+	top: 29px;
+	left: 115px;
+}
+.code-integation-img .img-2 {
+	position: absolute;
+	top: 111px;
+	left: 30px;
+}
+.code-integation-img .img-3 {
+	position: absolute;
+	top: 74px;
+	left: 220px;
+}
+.code-integation-img .img-4 {
+	position: absolute;
+	top: 190px;
+	left: 324px;
+}
+.code-integation-img .img-5 {
+	position: absolute;
+	top: 23px;
+	left: 309px;
+}
+.code-integation-img .img-6 {
+	position: absolute;
+	top: 159px;
+	left: 424px;
+}
+.code-integation-text {
+	margin-left: 84px;
+}
+.code-integation-text h2{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: 45px;
+}
+.code-integation-text p{
+    font-size: 18px;
+    color: #242f51;
+    line-height: 1;
+    padding-bottom: 45px;
+}
+/* code-integation css ends */
+/* why-our-app CSS START */
+#why-our-app{
+    width: 100%;
+    padding: 70px 0;
+}
+.why-our-app-titel h2{
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1.2;
+
+}
+.why-our-app-titel p{
+    font-size: 17px;
+    line-height: 1;
+    color: #242f51;
+}
+.app-development {
+    padding-top: 70px;
+}
+.app-development .app-development-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaf9ff;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.app-development .app-development-text{
+    text-align: center;
+}
+.app-development .app-development-text h2{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 37px;
+}
+.app-development .app-development-text p{
+    font-size: 18px;
+    color: #242f51;
+    padding-top: 22px;
+    line-height: 1;
+}
+/* why-our-app css end */
+/* unlimited features css start */
+#unlimited-features{
+    width: 100%;
+    padding: 170px 0;
+}
+#unlimited-features h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+#unlimited-features p{
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 1;
+}
+.unlimited-features-img{
+    position: relative;
+}
+.unlimited-features-img .unlimited-img1{
+    z-index: 9999;
+}
+.unlimited-features-img .unlimited-img2,.unlimited-features-img .unlimited-img3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+}
+.unlimited-features-img .unlimited-img2 {
+	z-index: -1;
+	left: -190px;
+	bottom: 261px;
+	transform: rotate(-5deg);
+}
+.unlimited-features-img .unlimited-img3 {
+	top: -99px;
+	left: -127px;
+}
+.app-development-text h4{
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+.app-development-text h6{
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 25px;
+    line-height: 1;
+}
+/* unlimited features css ends */
+/* price-card css start */
+#price-card{
+    width: 100%;
+    padding: 75px 0;
+    border-bottom: 2px solid #e4ffee;
+}
+.price-card-titel h2{
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.price-card-titel p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #242f51;
+    line-height: 1;
+}
+.price-card-titel span {
+	border: 1px solid #242f51;
+	padding: 17px 0;
+	display: inline-block;
+	border-radius: 25px;
+}
+.btn-3{
+    padding:15px 40px ;
+    border-radius: 25px;
+    color: var(--black);
+    font-size: 18px;
+    transition: all linear 0.4s;
+}
+.btn-3:hover{
+    background-color: var(--blue);
+    color: #f4f4ff;
+}
+.price-card {
+    width: 315px;
+    margin-top: 90px;
+    box-shadow: -1px 0px 37px -11px rgba(115,108,115,1);
+    padding-bottom: 25px;
+    transition: all linear 0.3s;
+}
+.price-card:hover{
+    transform: scale(1.2);
+}
+.price-card-top h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.price-card-top{
+    background-color: #fcfdfd;
+    padding: 70px 56px 0;
+}
+.price-card-top span{
+    font-size: 18px;
+    color: rgb(75, 74, 73);
+}
+.price-card-top h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.price-card-top p{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: rgb(75, 74, 73);
+}
+.price-card-bottom ul{
+    padding: 0;
+    margin: 0;
+}
+.price-card-bottom ul li {
+	list-style-type: none;
+	padding: 11px 25px;
+}
+
+/*  price-card css start  */
+/* setisficition css start */
+#setisfiction{
+    width: 100%;
+    padding: 150px 0;
+}
+.world-map {
+    position: relative;
+}
+.position-1 .img-7 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.position-1 .img-8 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.position-1 .img-9 {
+	position: absolute;
+	right: 160px;
+	bottom: 123px;
+}
+.position-1 .img-10 {
+	position: absolute;
+	left: 53px;
+	bottom: 42px;
+}
+.position-1 .img-11 {
+	position: absolute;
+	right: 66px;
+	top: 0;
+}
+.position-1 .img-12 {
+	position: absolute;
+	left: 24%;
+	top: 0;
+}
+.world-text h2{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0;
+    padding-bottom: 25px;
+}
+.world-text p{
+    font-size: 18px;
+    color: #464647;
+    line-height: 1;
+    padding: 0;
+    padding-bottom: 25px;
+}
+.world-text h5{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0;
+    padding-bottom: 25px;
+}
+.user .user-avature {
+    padding: 10px;
+}
+.user .user-description{
+    margin-left: 10px;
+}
+.user .user-description h3{
+    font-size: 23px;
+    font-weight: bold;
+}
+#setisfiction .row > * {
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 2);
+  }
+/* setisficition css start */
+/* question css start */
+#question{
+    width: 100%;
+    padding: 75px 0;
+}
+.qustion-titel h2{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: 28px;
+
+}
+.qustion-titel  p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1;
+    padding-bottom: 67px;
+}
+.question-1{
+    background-color: #f5f7fa;
+    position: relative;
+}
+.question-1 h3{
+    text-align: left;
+    line-height: 1.2;
+    padding: 25px 45px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.question-1 i{
+    position: absolute;
+    right: 5%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+/* question css ends */
+/* download-app" css start */
+#download-app{
+    width: 100%;
+    padding: 75PX 0;
+    border-top: 2px solid #e4ffee;
+    position: relative;
+}
+.download-text H2{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1;
+}
+.download-text p{
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 45px;
+}
+.download-text img{
+    margin-top: 45px;
+    margin-right: 40px;
+}
+.download-img{
+    
+}
+.download-img img {
+	width: 648px;
+	position: absolute;
+	bottom: 0;
+	right: 0px;
+}
+/* download-app" css ends */
+/* footer css start */
+#footer{
+    width: 100%;
+    background-color: #09142e;
+    padding: 75px 0;
+    padding-bottom: 35px;
+}
+.footer-menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.footer-menu ul li a{
+    color: #f4f4ff;
+    margin-right: 22px;
+    text-transform: uppercase;
+    
+}
+.social-icon a{
+    margin-right: 18px;
+    color: #f4f4ff;
+    font-size: 22px;
+    display: inline-block;
+}
+#footer p{
+    font-size: 20px;
+    color: #f4f4ff;
+    margin-top: 25px;
+}
+/* footer css ends */
